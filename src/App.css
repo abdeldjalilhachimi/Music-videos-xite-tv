@@ -1,0 +1,45 @@
+/** @format */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #54e6af;
+  --second-color: #2c344b;
+}
+
+.app {
+  max-width: 75rem;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 0.85rem;
+}
+
+.app .app__settings {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: auto 1rem ;
+}
+.app__content #app__loading {
+  width: 10rem;
+  display: block;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color:var(--second-color);
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: none;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+.app__content .app__imgnotfound {
+  max-width: 20rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}

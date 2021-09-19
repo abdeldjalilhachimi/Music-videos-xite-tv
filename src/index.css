@@ -1,0 +1,34 @@
+/**
+ * /* Global Setting
+ *
+ * @format
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+:root {
+  --fnt-family: "Poppins", sans-serif;
+  --bg-color: #121725;
+  --fnt-color: #ffff;
+  --main-color: #54e6af;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fnt-family);
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--fnt-color);
+  scroll-behavior: smooth;
+  -moz-scrollbar-color: var(--main-color);
+  -webkit-scrollbar-color: var(--main-color);
+  -o-scrollbar-color: var(--main-color);
+  -ms-scrollbar-color: var(--main-color);
+  scrollbar-color: var(--main-color)
+}

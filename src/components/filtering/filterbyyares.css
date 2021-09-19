@@ -1,0 +1,9 @@
+.filter__years  {
+    margin-top: .5rem;
+    padding: .5rem;
+}
+.filter__years  label {
+    display: block;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}

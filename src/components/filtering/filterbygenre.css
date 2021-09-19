@@ -1,0 +1,17 @@
+.filter__genres  {
+ 
+    border-radius: 5px;
+    margin-left: 0;
+    margin-bottom: .5rem;
+
+}
+
+.filter__genres  label {
+    display: block;
+    margin-left: .5rem;
+    text-transform: uppercase;
+}
+.filter__genres .MuiOutlinedInput-root {
+    max-width: 20rem;
+}
+

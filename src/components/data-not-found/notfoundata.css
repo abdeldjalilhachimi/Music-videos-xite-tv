@@ -1,0 +1,12 @@
+.notfound h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.notfound img {
+  max-width: 20rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
