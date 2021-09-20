@@ -38,12 +38,13 @@ SEARCH * users can :
 
 ## Pereview:
 
+## Desktop screen
 ![Desktop-screen](/src/assets/desktop-screen/desktop-screen.png)
 
 
-
+## Tablet screen
 ![tablet-screen](/src/assets/tablet-sceen/tablet-screen.png)
 
 
-
+## Mobile screen
 ![mobile-screen](/src/assets/mobile-screen/mobile-screen.png)
