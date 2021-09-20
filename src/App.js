@@ -6,6 +6,7 @@ import FilterByGenre from "./components/filtering/FilterByGenre";
 import FilterByYear from "./components/filtering/FilterByYear";
 import NotFound from "./components/data-not-found/NotFound";
 import "./App.css";
+import { ScrollToTop } from "./components/scroll-to-top/ScrollToTop";
 
 const App = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -47,6 +48,7 @@ const App = () => {
         ) : (
           <NotFound />
         )}
+        <ScrollToTop/>
       </section>
     </div>
   );
